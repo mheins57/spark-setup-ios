@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://github.com/spark/spark-setup-ios.git", :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/particle'
 
-    s.platform     = :ios, '8.0'
+    s.platform     = :ios, '7.0'
     s.requires_arc = true
 
     s.public_header_files = 'Classes/*.h'
