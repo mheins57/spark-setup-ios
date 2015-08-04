@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
         core.source_files  = 'Classes/User/**/*.{h,m}', 'Classes/UI/**/*'
         core.dependency 'Spark-SDK'
         core.dependency 'SparkSetup/Comm'
-        core.dependency 'SparkSetup'
         core.dependency 'MixPanel'
         core.dependency 'SparkSetup/Resources'
         core.ios.frameworks    = 'UIKit'
