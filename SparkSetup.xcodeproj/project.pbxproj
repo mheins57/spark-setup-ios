@@ -11,7 +11,6 @@
 		506C6FE61AD32E1C009D8498 /* SparkSetupUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C6FE41AD32E1C009D8498 /* SparkSetupUIViewController.m */; };
 		509081B21ACF6A8A0014E7DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509081AF1ACF6A8A0014E7DF /* Images.xcassets */; };
 		509081B41ACF6A8A0014E7DF /* setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509081B11ACF6A8A0014E7DF /* setup.storyboard */; };
-		509081E41ACF6AF70014E7DF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 509081B71ACF6AF70014E7DF /* Reachability.m */; };
 		509081E51ACF6AF70014E7DF /* SparkSetupCommManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509081B91ACF6AF70014E7DF /* SparkSetupCommManager.m */; };
 		509081E61ACF6AF70014E7DF /* SparkSetupConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 509081BB1ACF6AF70014E7DF /* SparkSetupConnection.m */; };
 		509081E71ACF6AF70014E7DF /* SparkSetupSecurityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509081BD1ACF6AF70014E7DF /* SparkSetupSecurityManager.m */; };
@@ -60,8 +59,6 @@
 		509081AC1ACF69720014E7DF /* SparkSetup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = SparkSetup.podspec; sourceTree = "<group>"; };
 		509081AF1ACF6A8A0014E7DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		509081B11ACF6A8A0014E7DF /* setup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = setup.storyboard; sourceTree = "<group>"; };
-		509081B61ACF6AF70014E7DF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		509081B71ACF6AF70014E7DF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		509081B81ACF6AF70014E7DF /* SparkSetupCommManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkSetupCommManager.h; sourceTree = "<group>"; };
 		509081B91ACF6AF70014E7DF /* SparkSetupCommManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkSetupCommManager.m; sourceTree = "<group>"; };
 		509081BA1ACF6AF70014E7DF /* SparkSetupConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkSetupConnection.h; sourceTree = "<group>"; };
@@ -195,8 +192,6 @@
 		509081B51ACF6AF70014E7DF /* Comm */ = {
 			isa = PBXGroup;
 			children = (
-				509081B61ACF6AF70014E7DF /* Reachability.h */,
-				509081B71ACF6AF70014E7DF /* Reachability.m */,
 				509081B81ACF6AF70014E7DF /* SparkSetupCommManager.h */,
 				509081B91ACF6AF70014E7DF /* SparkSetupCommManager.m */,
 				509081BA1ACF6AF70014E7DF /* SparkSetupConnection.h */,
@@ -429,7 +424,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509081E41ACF6AF70014E7DF /* Reachability.m in Sources */,
 				509081EC1ACF6AF70014E7DF /* SparkSelectNetworkViewController.m in Sources */,
 				509081F71ACF6AF70014E7DF /* SparkSetupCustomization.m in Sources */,
 				509081F21ACF6AF70014E7DF /* SparkUserLoginViewController.m in Sources */,
