@@ -103,6 +103,7 @@
 		50D0955A1AD38CE4008EDBD7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		50D0955B1AD38E2E008EDBD7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50D095981AD5BB6E008EDBD7 /* SparkSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparkSetup.h; path = Classes/SparkSetup.h; sourceTree = SOURCE_ROOT; };
+		6D7A7B191B710D1000178A36 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8D140506C125F8E7CE18E841 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F404D8EB82B123EA6352E8F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0ADC41A6CCAF841506DF90 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +193,7 @@
 		509081B51ACF6AF70014E7DF /* Comm */ = {
 			isa = PBXGroup;
 			children = (
+				6D7A7B191B710D1000178A36 /* Reachability.h */,
 				509081B81ACF6AF70014E7DF /* SparkSetupCommManager.h */,
 				509081B91ACF6AF70014E7DF /* SparkSetupCommManager.m */,
 				509081BA1ACF6AF70014E7DF /* SparkSetupConnection.h */,
