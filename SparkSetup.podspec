@@ -21,18 +21,18 @@ Pod::Spec.new do |s|
     s.public_header_files = 'Classes/*.h'
     s.source_files  = 'Classes/*.h'
     
-    s.subspec 'Resources' do |resources|
-        resources.resource_bundle = {'SparkSetup' => ['Resources/**/*']}
-    end
+#    s.subspec 'Resources' do |resources|
+#        resources.resource_bundle = {'SparkSetup' => ['Resources/**/*']}
+#    end
 
-    s.subspec 'Core' do |core|
-        core.source_files  = 'Classes/User/**/*.{h,m}', 'Classes/UI/**/*'
-        core.dependency 'Spark-SDK'
-        core.dependency 'SparkSetup/Comm'
-        core.dependency 'Mixpanel'
-        core.dependency 'SparkSetup/Resources'
-        core.ios.frameworks    = 'UIKit'
-    end
+#    s.subspec 'Core' do |core|
+#        core.source_files  = 'Classes/User/**/*.{h,m}', 'Classes/UI/**/*'
+#        core.dependency 'Spark-SDK'
+#        core.dependency 'SparkSetup/Comm'
+#        core.dependency 'Mixpanel'
+#        core.dependency 'SparkSetup/Resources'
+#        core.ios.frameworks    = 'UIKit'
+#    end
 
     s.subspec 'Comm' do |comm|
         comm.source_files  = 'Classes/Comm/**/*'
